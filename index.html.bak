@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<title>Behaviouring - Re-imagine, Re-define& Re-engineer</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet"></link>
+		<script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+	<body>
+		<!-- Page loader progress bar -->
+		<div id="progress-overlay">
+		    <div id="progstat"></div>
+		    <div id="progress"></div>
+		</div>
+		<!-- End of page loader progress bar -->
+		<div id="container">
+			<!-- Page nav bar -->
+			<div id="top-nav">
+				<div id="top-nav-inner">
+					<div id="site-title-section">
+						<p id="site-title">Behaviouring</p>
+					</div>
+				<div id="nav-menu-section">
+					<ul id="nav-menu">
+						<li class="nav-menu-item" onclick=loadPage("home")>Home</li>
+						<li class="nav-menu-item" onclick=loadPage("work")>My work</li>
+						<li class="nav-menu-item" onclick=loadPage("contact")>Ping me</li>
+						<li class="nav-menu-item" onclick=loadPage("blog")>Scratch pad</li>
+						<li class="nav-menu-item" onclick=loadPage("quotes")>Quotes</li>
+						<li class="nav-menu-item" onclick=loadPage("thanks")>Thanks</li>
+					</ul>
+				</div>
+				<div class="clear-float"></div>
+				</div>								
+			</div>
+			<!-- End of page nav bar -->
+			<!-- Home page -->
+			<div id="page-home" class="page page-active" rel="home">
+				<div class="page-overlay">
+					<div class="page-inner">
+						<div class="page-content clear-top-padding">
+							<ul class="illustrate">
+								<li class="illustrate-item">
+									<div class="illustrate-inner clear-left-margin clear-left-padding">
+										<div class="circle-border">									
+											<img src="images/idea.png"/>																	
+										</div>
+										<div class="illustrate-content max-width-750px">
+											<b>What is behavioring anyway?</b>											
+											<p class="margin-top-10px">												
+												Yes. You are right. There is no such word called behaviouring in English.
+												It's gramatically incorrect, just like Apple's <i>Think Different</i>.
+											</p>
+											<p class="margin-top-10px">
+												Nevertheless behaviouring is a very special word for me. Why? Well. Just think of a computer or any electronic
+												device. It's just a piece of silicon (<sub>14</sub>Si) packed inside a metal or a plastic. We call it hardware. It simply 
+												lies there and doesn't know how to behave. It's creatures like me, the programmers who teach it what things to do 
+												and how to do things. Thus adding behaviour(s) to otherwise a piece of silicon. 
+											</p>
+											<p class="margin-top-10px">
+												And that is called behaviouring. Simple enough?
+											</p>												 											
+										</div>
+										<div class="clear-float"></div>
+									</div>							
+								</li>
+								<li class="illustrate-item">
+									<div class="illustrate-inner clear-left-margin clear-left-padding">
+										<div class="circle-border">
+											<img src="images/user.png"/>									
+										</div>
+										<div class="illustrate-content max-width-750px">
+											<b>About me</b>											
+											<p class="margin-top-10px">												
+												When I was born, I was destined to be an engineer. And now I am.
+											</p>
+											<p class="margin-top-10px">	
+												There is no particular field of engineering I like the most over the other. I like 
+												them all. But I'm particularly wired to be a computer engineer.
+												I respect every engineer who has worked and still working to make human life beautiful and meaningful by revealing the subtleties of our universe. 												
+												From Nikola Tesla to Steve Wozniak, I love them all. In recent times the life of Steve Woz made a huge impact on me. 
+												After reading his story (The book titled iWoz), I decided that I will learn, do and teach engineering for ever.
+											</p>
+											<p class="margin-top-10px">
+											    I like to meet new people and plants and become friends with them. Not much of an animal lover.
+												I consider myself a mystic person - the one who spends a lot of time in deep thoughts travelling
+												through the star clusters of the cosmos.
+												In my leisure time you can spot me at X-Fitness & Solid (17.399978, 78.414067) doing weight lifting or at Lotus Pond (17.413596, 78.420086) taking a stroll.
+												And well you want to know my name? I am Mohan.
+											</p>
+										</div>
+										<div class="clear-float"></div>
+									</div>							
+								</li>						
+							</ul>
+						</div>					
+					</div>
+				</div>	
+			</div>	
+			<!-- End of home page -->
+			<!-- My work page -->
+			<div id="page-work" class="page hide" rel="work">
+				<div class="page-overlay">
+					<div class="page-inner">
+						<div class="page-content clear-top-padding">
+							<div class="paging-container clear-left-padding">
+								<div id="work-paging-prev" class="paging-button">
+									<span class="button-prev">&lt;</span>
+								</div>
+								<div id="work-paging-next" class="paging-button">
+									<span class="button-next">&gt;</span>
+								</div>
+								<div class="clear-float"></div>
+							</div>
+							<div class="work-items-viewport">
+								<ul class="illustrate work-items">									
+									<li class="illustrate-item work-item-active" rel="first">
+										<div class="illustrate-inner clear-left-margin clear-left-padding min-height-310px">
+											<div class="circle-border">									
+												<img src="images/rinix.png"/>																	
+											</div>
+											<div class="illustrate-content max-width-750px">
+                                                <b>Rinix Mobile Security</b>																								
+												<p class="margin-top-10px">
+                                                    Rinix Mobile Security is a suite of security applications for Android phones. It has anti-virus/ malware 
+													scanner, remote mobile tracker & controller, call & sms blocker and privacy advisor. It was a startup project with a
+													dedicated team for UI/ UX, reverse engineering& malware research and app development. 																										
+												</p>
+                                                <p class="margin-top-10px">
+                                                    I headed the app development team and was completely responsible for end to end coding, testing, troubleshooting and release management. I designed the core data structures, malware scan engine
+													and data storage and retrieval logic. The project helped me learn a lot of core computer science concepts especially algorithm design and analysis, system programming, data communication and text processing.													
+                                                </p>
+                                                <p class="margin-top-10px">
+                                                    Initially we started the project as Proof of Concept (PoC) for an improved and reliable malware detection method which is faster than legacy detection methods. 
+													When we kicked off we did not have a name for the product. Later when we started development I came up with the suggestion <i>Rinix</i> because it is a very special word. <i>Ri</i> was taken from first two 
+													letters of <i>Ritchie in Dennis Ritchie (The inventor of C programming language)</i> and <i>nix</i> was taken from last three letters of <i>Unix (The OS designed by Dennis Ritchie & Ken Thompson)</i>.
+													It ended up a good word as it rhymes with Unix and other Unix family of names like Linux, Minix and so on.
+                                                </p>
+												<p class="margin-top-10px">
+                                                    We released Rinix as a free app on June 30, 2013. Thanks to its speed, light-weightness and rich features it gained traction so quickly from 
+													users across the world. We reached 1 million count in less than 4 months time! Later we also released a paid version.
+													After around 6 months from the release date Rinix was acquired by Rotella.
+                                                </p>
+                                                <p class="margin-top-10px">
+                                                    <a target="_blank" class="link-color-white" href="https://play.google.com/store/apps/details?id=antivirus.free&hl=en">Play store link</a>
+                                                </p>
+											</div>
+											<div class="clear-float"></div>
+										</div>							
+									</li>
+									<li class="illustrate-item hide">
+										<div class="illustrate-inner clear-left-margin clear-left-padding">
+											<div class="circle-border">									
+												<img src="images/boostify.png"/>																	
+											</div>
+											<div class="illustrate-content max-width-750px min-height-310px">
+                                                <b>Speed Booster Pro (Boostify)</b>																								
+												<p class="margin-top-10px">
+                                                    Speed Booster Pro is a simple utility app for Android devices. The app shows the memory and CPU usage of
+                                                    the apps running on the mobile phone. The user can choose to kill the app or select multiple apps which they think is (are) more CPU and memory hungry.
+                                                    Or they can leave the option of automatically killing the resource hungry apps to Speed Booster Pro. The app can also be scheduled to run at a 
+                                                    specified interval or run once a day say 6 a.m.    																										
+												</p>
+                                                <p class="margin-top-10px">
+                                                    I designed the UI/ UX of the app and also programmed the entire app. On the way I learned how Linux performs memory management and various commands/ utils
+                                                    relating to Linux memory management.
+                                                </p>
+                                                <p class="margin-top-10px">
+                                                    The app got generally a very good reception. It got around 100k downloads in 2 weeks time. Later the ownership of the app was transfered to another
+                                                    developer who was willing to acquire it. Currently it has 1 million users.
+                                                </p>
+                                                <p class="margin-top-10px">
+                                                    <a target="_blank" class="link-color-white" href="https://play.google.com/store/apps/details?id=speed.boost.android.free&hl=en">Play store link</a>
+                                                </p>
+											</div>
+											<div class="clear-float"></div>
+										</div>							
+									</li>
+									<li class="illustrate-item hide">
+										<div class="illustrate-inner clear-left-margin clear-left-padding min-height-310px">
+											<div class="circle-border">									
+												<img src="images/advance.png"/>																	
+											</div>
+											<div class="illustrate-content max-width-750px">
+                                                <b>My Aad Network</b>																								
+												<p class="margin-top-10px">
+                                                    My Aad Network is a location aware social advertising platform startup. I was enaged to complete the Proof of Concept (PoC)
+													of their advertising method. As part of the PoC I had to design a website, a mobile app and a desktop app. Much of the work involved
+													data communication atop UPnP (<a class="link-color-white" href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play" target="_blank">Wikipedia link</a>) / DLNA 
+													(<a class="link-color-white" href="https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance" target="_blank">
+													Wikipedia link</a>) and networking programming. The project helped me futher strengthen my understanding of computer networks
+													and network programming. 																										
+												</p>                                                
+                                                <p class="margin-top-10px">
+                                                    I designed the website choosing PHP as the sever-side language. I wrote the mobile app for Android and the desktop app using Java and 
+													successfully completed the PoC. The project is currently in development phase and I am not invloved in the development. I am not to disclose futher details as part of my Non Disclosure Agreement (NDA)
+													with My Aad Network.
+                                                </p>                                                
+											</div>
+											<div class="clear-float"></div>
+										</div>							
+									</li>
+									<li class="illustrate-item hide">
+										<div class="illustrate-inner clear-left-margin clear-left-padding min-height-310px">
+											<div class="circle-border">									
+												<img src="images/citizenpoll.jpeg"/>																	
+											</div>
+											<div class="illustrate-content max-width-750px">
+                                                <b>Tamil Nadu Citizen Poll - 2014</b>																								
+												<p class="margin-top-10px">
+                                                    Tamil Nadu Citizen Poll - 2014 is an Android app requested by the Election Commissioner of Tamil Nadu.
+													The app was released to public of Tamil Nadu during 2014 general elections. The app educates the public
+													the Code of Conduct (CoC) to be followed by public and politicians during campaining period and on election day.
+													The app encourages the public to report any event of misconduct directly to the nearest Nodal Officer.
+													Using the app, anyone can take a live picture or video and create an incident. The incident would later
+													be investigated by the Nodal Officer and appropriate action would be initiated against the violater(s) of CoC.																									
+												</p>
+                                                <p class="margin-top-10px">
+                                                    The app was received well by the public and was used to report 300+ genuine incidents across the state.
+													Recently I heard that the Tamil Nadu Election Commissioner is going to recommend the Election Commission of India to 
+													roll out the app for the entire nation in the next general election!
+                                                </p>
+                                                <p class="margin-top-10px">
+                                                    The app was designed by a team of UI/ UX designers, web developers and app programmers. My responsibility was to co-ordinate with
+													the app programmers and deliver the app code.
+                                                </p>
+                                                <p class="margin-top-10px">
+                                                    <a target="_blank" class="link-color-white" href="http://elections.tn.gov.in/complaints.html">Initial App Link</a>
+                                                </p>
+											</div>
+											<div class="clear-float"></div>
+										</div>						
+									</li>	
+									<li class="illustrate-item hide">
+										<div class="illustrate-inner clear-left-margin clear-left-padding min-height-310px">
+											<div class="circle-border">									
+												<img src="images/advance.png"/>																	
+											</div>
+											<div class="illustrate-content max-width-750px">
+                                                <b>Lift Prank</b>																								
+												<p class="margin-top-10px">
+                                                    Lift Prank is a simple fun app I'm writing for Android devices. The idea is when you are in a lift,
+													the app will scream different sounds everytime the lift stops at a floor. You can configure the screaming
+													sounds. Most of the times people in a lift would not even see others in the lift. They would just stare at the
+													display which shows the floor number as if they were mummified! After won't it be fun to play a prank around them (mummies)?
+													    																										
+												</p>
+                                                <p class="margin-top-10px">
+                                                    My idea is to listen to the accelerometer readings of the phone and decide if the lift is going up, down or came to
+													halt at a floor. I tried this experiment a couple of times but the accelerometer of my phone is not so accurate. Or may be 
+													the algorithm I use to read the accelerometer readings is flawed. I'm still not sure. So I'm looking for a better way to decide the motion of a lift or better algorithm to eliminate the noise that is coming
+													along with the actual accelerometer readings.
+                                                </p>
+                                                <p class="margin-top-10px">
+                                                    The project is currently stalled. It would be great if someone could help me find a solution for this.
+                                                </p>                                                
+											</div>
+											<div class="clear-float"></div>
+										</div>					
+									</li>
+                                    <li class="illustrate-item hide">
+										<div class="illustrate-inner clear-left-margin clear-left-padding min-height-310px">
+											<div class="circle-border">									
+												<img src="images/jewelone.png"/>																	
+											</div>
+											<div class="illustrate-content max-width-750px">
+                                                <b>Jewel One Customer Management</b>																								
+												<p class="margin-top-10px">
+                                                    Jewel One is a reputed chain of gold jewellery showrooms in Tamil Nadu. We designed an Android app for Jewel One which has Customer Relationship Management (CRM),
+													Order Management and Payment Management features. The app is for their internal use and would be used only by the employees of the showroom.
+													Legacy systems would have one or two computers at a fixed location in the showroom to do these CRM activities. The app is a good choice to let the employees better engage their customers.																								
+												</p>
+                                                <p class="margin-top-10px">
+                                                    The app was developed by a team of UI/ UX designers and a bunch of .NET developers to facilitate the flow of data between the mobile app and Jewel One's ERP system.
+													I was responsible for programming the mobile app. This mobile app development is a new experience for me as we decided to give
+													Cross Platform Mobile Application Development a try. I chose Apache Cordova (previously Phonegap) as the underlying framework. So I had to write the entire app code in JavaScript and ended up writing around 2000 lines
+													of JavaScript! However writing a pure JavaScript app is a great feeling because of its simplicity, flexibility and power!
+                                                </p>                                               
+											</div>
+											<div class="clear-float"></div>
+										</div>					
+									</li>
+                                    <li class="illustrate-item hide" rel="last">
+										<div class="illustrate-inner clear-left-margin clear-left-padding min-height-310px">
+											<div class="circle-border">									
+												<img src="images/advance.png"/>																	
+											</div>
+											<div class="illustrate-content max-width-750px">
+                                                <b>Breathe</b>																								
+												<p class="margin-top-10px">
+                                                    Have you ever given a more serious thought about your phone's wall? I mean the home screen where there is a wallpaper.
+													That's the place where you (me too) see more than a 100 times in any given day. Yes there is a wallpaper but who set it? It's you and you set it
+													some 2 weeks ago. And that's it. It's still there, lifeless. Of course there are live wallpapers to add life to it.
+													But the choice of pictures offered by them is limited and they don't know what kind of pictures you like.   																										
+												</p>
+                                                <p class="margin-top-10px">
+                                                    Ok. To understand, consider this scenario. I currently have a wallpaper on my phone which shows the picture of Gautama Buddha in deep meditation with a text below that reads <i>Each morning
+													we are born again. What we do today is what matters the most.</i> Seeing the picture everytime makes me question if I'm spending
+													this moment worth living. Hmmm.. that's a bit of philosophy. Please ignore it! I set that picture long back
+													and after seeing that picture day in and day out for many many days, one day I thought <i>I like pictures of this sort. But my phone is not realizing that. Anyway It has
+													enough time at night when I'm sleeping to think about it. Won't it be much better if it tries to find a similar picture on the internet and set that as the wallpaper and makes me feel happy when I wake up the next morning?</i>
+                                                </p>
+                                                <p class="margin-top-10px">
+                                                    But my phone can't think on its own, right? So I'm currently teaching my phone how to do that.
+													I thought if I would feel happy if my phone do that for me, a couple others might also feel happy if
+													their phone could do that for them. And so it happened I started writing an Android app and thought <i>Ok. Let's call it Breathe</i>. I'm planning to release Breathe in late
+													September or early November, 2015.
+                                                </p>                                                
+											</div>
+											<div class="clear-float"></div>
+										</div>					
+									</li>					
+								</ul>
+							</div>							
+							<div class="clear-float"></div>							
+						</div>					
+					</div>
+				</div>	
+			</div>
+			<!-- End of My works page -->
+			<!-- Contact me page -->
+			<div id="page-contact" class="page hide" rel="contact">
+				<div class="page-overlay">
+					<div class="page-inner">
+						<div class="page-content">							
+							<div class="float-left border-right">
+								<p class="msg">I am available for the following work:</p>
+								<ul class="illustrate">
+									<li class="illustrate-item">
+										<div class="illustrate-inner ping-me-items">
+											<div class="circle-border">									
+												<img src="images/variable.png"/>																	
+											</div>
+											<div class="illustrate-content max-width-400px">
+												<p>Interesting projects in computer app development (For Linux & Web), mobile app development (For Android) and DIY electronics (For Raspberry Pi & Arduino). Platform, programming language or framework is never a roadblock for me. 
+												I can learn them on the way if required and reach the target on time.</p>											
+											</div>
+											<div class="clear-float"></div>
+										</div>							
+									</li>
+									<li class="illustrate-item">
+										<div class="illustrate-inner ping-me-items">
+											<div class="circle-border">
+												<img src="images/conference.png"/>									
+											</div>
+											<div class="illustrate-content max-width-400px">
+												<p>Participate/ Organize (in) Science, Technology, Engineering & Math (STEM) hackathons and any event relating to STEM.</p>											
+											</div>
+											<div class="clear-float"></div>
+										</div>							
+									</li>	
+									<li class="illustrate-item">
+										<div class="illustrate-inner ping-me-items">
+											<div class="circle-border">
+												<img src="images/podium.png"/>									
+											</div>
+											<div class="illustrate-content max-width-400px">
+												<p>Seminar/ Guest lecture in computer programming,  elementary and advanced computer science concepts at schools, colleges and tech meetups.</p>											
+											</div>
+											<div class="clear-float"></div>
+										</div>							
+									</li>					
+								</ul>
+							</div>
+							<div class="float-left ping-me-details-section">
+								<p class="msg">
+									Think I'm of any use to you? 
+								</p>
+								<p class="msg">
+									Then please pick your phone and dial +91 78424 71661 for a small talk.
+								</p>
+								<p class="msg">
+									Else drop a mail to <a class="link-color-white" href="mailto:dreamer@behaviouring.tech?Subject=Hey%20Mohan%20let%27s%20catch%20for%20a%20drink," target="_top">dreamer@behaviouring.tech</a> for a drink.
+								</p>
+								<p class="msg">
+									Meet you soon!
+								</p>
+							</div>							
+						</div>					
+					</div>
+				</div>	
+			</div>
+			<!-- End of contact me page -->	
+			<!-- Blog page -->
+			<div id="page-blog" class="page hide" rel="blog">
+				<div class="page-overlay">
+					<div class="page-inner">
+						<div class="page-content">
+							<p class="msg">Fetching blog titles... Please wait for a moment.</p>
+						</div>					
+					</div>
+				</div>	
+			</div>
+			<!-- End of blog page -->
+			<!-- Quotes page -->
+			<div id="page-quotes" class="page hide" rel="quotes">
+				<div class="page-overlay">
+					<div class="page-inner">
+						<div class="page-content">
+							<div class="illustrate-content max-width-750px">																						
+								<p class="margin-top-10px">
+								Do what you have to to be happy in this life. There is so much beauty. Go well, my children. :)
+								<br/>
+								- Closing lines of the movie The Bridges of Madison County
+								</p>
+								<p class="margin-top-10px">
+								For some men, nothing is written until they write it.
+								<br/>
+								- A statement in the movie The Lawrence of Arabia
+								</p>  
+								<p class="margin-top-10px">
+								I love how she makes me feel. Ummm.. like anything is possible. Ummm.. like life is worth it. (A)
+								<br/>
+								- A heartbroekn statement in the movie 500 Days of Summer
+								</p>
+								<p class="margin-top-10px">
+								A journey of thousand miles begins with a single step.
+								<br/>
+								- Proverb
+								</p>
+								<p class="margin-top-10px">
+								To know others is knowledge. To know onself is wisdom.
+								<br/>
+								- Confucius
+								</p>
+								<p class="margin-top-10px">
+								A problem that could be solved in JavaScript will eventually be solved in JavaScript.
+								<br/>
+								- Unknown
+								</p>
+								<p class="margin-top-10px">
+								Ever wonder once in a while how you come across somebody who you should not have messed with? It's me. :@
+								<br/>
+								- A statement in the movie Gran Torino
+								</p>
+							</div>
+						</div>					
+					</div>
+				</div>	
+			</div>
+			<!-- End of quotes page -->
+			<!-- Thanks page -->
+			<div id="page-thanks" class="page hide" rel="thanks">
+				<div class="page-overlay">
+					<div class="page-inner">
+						<div class="page-content">
+							<p class="msg">
+								A million thanks to the following websites/ organizations who provided free resources to build this website:
+							</p>
+							<br/>
+							<p class="margin-top-10px">
+                                <a target="_blank" class="link-color-white" href="https://jquery.org/">jQuery Foundation</a> for 
+									providing an awesome JavaScript library.
+                            </p>
+							<p class="margin-top-10px">
+                                <a target="_blank" class="link-color-white" href="http://gsgd.co.uk/sandbox/jquery/easing/">GSGD</a> for 
+									providing easing functions for jQuery animations.
+                            </p>
+							<p class="margin-top-10px">
+                                <a target="_blank" class="link-color-white" href="https://wallpaperscraft.com">Wallpaerscraft</a> for 
+									providing cute Android robot pictures.
+                            </p>
+							<p class="margin-top-10px">
+                                <a target="_blank" class="link-color-white" href="https://icons8.com">Icons8</a> for 
+									providing colorful flat icons.
+                            </p>
+							<p class="margin-top-10px">
+                                <a target="_blank" class="link-color-white" href="https://www.google.com/fonts/specimen/Open+Sans">Google Fonts</a> for 
+									providing OpenSans font.
+                            </p>
+						</div>					
+					</div>
+				</div>	
+			</div>
+		<!-- End of thanks page -->	
+		</div>
+	</body>
+</html>

@@ -1,0 +1,4 @@
+RewriteEngine on 
+
+RewriteRule ^/?blog/?$ blog.php [L]
+RewriteRule ^/?blog/(.+?)/?$ blog.php?title=$1 [L]
